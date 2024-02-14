@@ -1,0 +1,10 @@
+.puzzle-piece {
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}

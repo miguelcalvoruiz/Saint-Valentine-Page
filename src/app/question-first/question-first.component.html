@@ -1,0 +1,8 @@
+<div class="question-container">
+    <h1>¿Me quieres?</h1>
+    <div class="buttons">
+        <button [routerLink]="['/puzzle']" class="btn btn-primary">Si</button>
+        <button [@moveButton]="{ value: buttonState, params: { x: x, y: y } }" (click)="moveButtonNo()"
+            class="btn btn-danger">No</button>
+    </div>
+</div>
