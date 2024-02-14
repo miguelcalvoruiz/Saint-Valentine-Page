@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PuzzleSecondComponent } from './puzzle-second.component';
+import { VideoPlayerComponent } from './video-player.component';
 
-describe('PuzzleSecondComponent', () => {
-  let component: PuzzleSecondComponent;
-  let fixture: ComponentFixture<PuzzleSecondComponent>;
+describe('VideoPlayerComponent', () => {
+  let component: VideoPlayerComponent;
+  let fixture: ComponentFixture<VideoPlayerComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ PuzzleSecondComponent ]
+      declarations: [ VideoPlayerComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PuzzleSecondComponent);
+    fixture = TestBed.createComponent(VideoPlayerComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
